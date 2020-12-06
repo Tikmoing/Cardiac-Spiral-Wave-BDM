@@ -18,7 +18,7 @@ for k = 1 : length(t)
 %Parallel   like:u(1,1：end) = S
 %Circular   like: u(pointx,pointy) = S
 ```
-
+![PC](https://raw.githubusercontent.com/Tikmoing/Cardiac-Spiral-Wave-BDM/main/images/PC.jpg)
 
 ## How to generate spiral waves:
 
@@ -32,7 +32,7 @@ FileName : *getScrewAndEliminate.m*
        end
 ```
 
-
+![Spiral](https://raw.githubusercontent.com/Tikmoing/Cardiac-Spiral-Wave-BDM/main/images/Spiral.jpg)
 
 ## Spatiotemporal chaos:
 
