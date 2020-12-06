@@ -17,7 +17,6 @@ for k = 1 : length(t)
 %靶波   例如: u(pointx,pointy) = S
 ```
 
-![image-20201204173504243_meidddtu_1](C:\Users\86177\Desktop\4\嘛\image-20201204173504243_meidddtu_1.jpg)
 
 ## 产生螺旋波：
 
@@ -31,9 +30,7 @@ for k = 1 : length(t)
        end
 ```
 
-结果展示：
 
-![image-20201204173504顶顶顶243_meitu_1](C:\Users\86177\Desktop\4\嘛\image-20201204173504顶顶顶243_meitu_1.jpg)
 
 ## 时空混沌：
 
@@ -45,7 +42,6 @@ for k = 1 : length(t)
 eps = 0.12;
 ```
 
-![ChaosReally](C:\Users\86177\Desktop\4\ChaosReally.png)
 
 ## 行波法消除螺旋波和混沌状态
 
