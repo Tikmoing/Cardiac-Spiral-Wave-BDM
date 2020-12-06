@@ -4,27 +4,27 @@ This  code is based on Dwight Barkley Model. \
 Reference website：
 http://www.thevirtualheart.org/webgl/DS_SIAM/barkley.html
 
-## 产生平行波和靶波
+## How to generate parallel and circular waves
 
-文件：*getSteadyStateWave.m*
+Filename:*getSteadyStateWave.m*
 
 ```matlab
 for k = 1 : length(t)
-%在此处加上你的刺激条件
+%Add your stimulus here
 	for i = 1 : nx
         for j = 1 : ny
         
-%%条件
-%平行波 例如：u(1,1：end) = S
-%靶波   例如: u(pointx,pointy) = S
+%%Stimulus:
+%Parallel   like:u(1,1：end) = S
+%Circular   like: u(pointx,pointy) = S
 ```
 
 
-## 产生螺旋波：
+## How to generate spiral waves:
 
-文件：*getScrewAndEliminate.m*
+FileName:*getScrewAndEliminate.m*
 
-只需要产生一列行波，传到中间时将它的一半给人为抹去，剩下一半就可以自动演化生成螺旋波。
+    Only a series of traveling waves need to be generated, and half of them will be erased when they reach the middle, and the remaining half can automatically evolve into spiral waves.
 
 ```matlab
        if( abs(t(k) - 26.964000000000000) < 1e-4)
@@ -34,17 +34,17 @@ for k = 1 : length(t)
 
 
 
-## 时空混沌：
+## Spatiotemporal chaos:
 
 文件：*getChaosAndEliminate.m*
 
-该模型的特殊性，让螺旋波演化生成时空混沌只需要改变参数值。
+    The particularity of the model makes the spiral wave evolve into spatiotemporal chaos only by changing the parameter value.
 
 ```matlab
 eps = 0.12;
 ```
 
 
-## 行波法消除螺旋波和混沌状态
+## Elimination of spiral wave and chaos by traveling wave method:
 
-在两个文件中都有
+    The code for this procedure is in the above file and will not be discussed in detail here
