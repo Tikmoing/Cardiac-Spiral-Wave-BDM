@@ -1,4 +1,4 @@
-# Cardiac-Spiral
+# Cardiac-Spiral-Wave
 
 This  code is based on Dwight Barkley Model. \
 Reference website：
