@@ -1,6 +1,7 @@
 # Cardiac-Spiral
 
 This  code is based on Dwight Barkley Model.
+http://www.thevirtualheart.org/webgl/DS_SIAM/barkley.html
 
 ## 产生平行波和靶波
 
